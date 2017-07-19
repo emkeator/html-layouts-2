@@ -1,0 +1,112 @@
+/*@import url('https://fonts.googleapis.com/css?family=Catamaran|Rokkitt|Signika:400,700');*/
+body {
+  background-color: #FAFAFA;
+}
+.main-section {
+  background-color: #FAFAFA;
+  margin: 30px;
+  display: flex-wrap wrap;
+  font-family: 'Catamaran', sans-serif;
+}
+
+.main-header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FAFAFA;
+}
+
+.logo {
+  width: 100px;
+  height: 30px;
+  background-color: #FAFAFA;
+
+  font-weight: bolder;
+  font-family: 'Signika', sans-serif;
+  font-size: 200%;
+  padding-left: 20px;
+}
+
+nav {
+  width: 300px;
+  height: 30px;
+  background-color: #FAFAFA;
+  /*padding-right: 20px;*/
+  display: flex;
+  align-items: stretch;
+}
+
+.nav-left {
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.apply-button {
+  background-color: #2E2E30;
+  color: #FAFAFA;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-central {
+  width: 100%;
+  height: calc(100vh - 60px - 80px - 30px);
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-title {
+  font-weight: bolder;
+  font-family: 'Signika', sans-serif;
+  font-size: 700%;
+}
+
+.web-sub-title {
+  font-size: 100%;
+  font-family: 'Rokkitt', serif;
+}
+
+.social {
+  padding-right: 20px;
+  height: 30px;
+  width: 100%;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 75%;
+}
+
+
+.red-frame-right {
+  height: 400px;
+  width: 400px;
+  background-color: #FF5649;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.red-frame-left {
+  height: 400px;
+  width: 400px;
+  background-color: #FF5649;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
